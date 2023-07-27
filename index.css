@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:aquamarine;
+    
+}
+
+.logo{
+    width:150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.nav-items > ul{
+    list-style:none;
+    display: flex;
+    
+}
+.nav-items >ul>li{
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 1px 1px 2px grey;
+    font-weight: bold;
+
+}
+.nav-items >ul>li:hover{
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color:red
+
+}
+
+.res-container{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+/******** Restaurant Card *********/
+
+.res-card{
+    width:250px;
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px darkgrey ;
+
+}
+.res-card:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+  
+}
+.search{
+    padding:10px;
+}
+.res-logo{
+    width: 250px;
+    height: 200px;
+    border-radius: 35px;
+    
+}
+.footer{
+    border: 2px solid black;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+/********** Card inside design*********/
+#name{
+    color:black;
+    font-style: bold;
+    font-size: 20px;
+    color: red;
+    font-style: arial;
+}
+#cuisine{
+    font-size: 15px;
+    
+}
